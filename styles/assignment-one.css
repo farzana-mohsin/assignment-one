@@ -1,0 +1,29 @@
+.header-container {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 50px 140px;
+  /* background-attachment: */
+  background-position: top center;
+  padding: 100px 250px 200px 250px;
+  border-radius: 16px;
+}
+.header-container h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.header-container h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  /* padding: 0px 250px 250px 250px; */
+  /* max-width: 700px; */
+}
