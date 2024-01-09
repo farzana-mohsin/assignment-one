@@ -276,6 +276,58 @@
   line-height: 20px; /* 160% */
   padding: 0 200px;
 }
-::placeholder {
+.newsletter ::placeholder {
   color: rgba(7, 2, 17, 0.3);
+}
+/* footer related styles */
+/* footer {
+  margin: px 0;
+} */
+footer .subscribe-all {
+  width: 100%;
+  margin: auto;
+  /* max-width: 1600px; */
+  background: #070211;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 20px;
+}
+footer .area1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 140px;
+}
+footer .area2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 600px;
+  /* max-width: 400px; */
+}
+footer .area3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 100px;
+}
+footer button {
+  background-color: transparent;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+}
+footer .hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+footer .footer-image {
+  width: 10%;
 }
