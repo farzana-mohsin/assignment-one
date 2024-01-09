@@ -265,15 +265,13 @@
 .awesome-images1,
 .awesome-images2 {
   display: flex;
-  /* border-radius: 10px; */
-  /* width: auto; */
   height: 440px;
 }
 .image1 {
   width: 92%;
 }
 .image1:hover {
-  opacity: 50%;
+  opacity: 30%;
   transition-delay: 150ms;
 }
 /* newsletter related styles */
@@ -302,6 +300,11 @@
   line-height: normal;
   text-transform: capitalize;
   padding: 14px 35px;
+}
+.newsletter .btn-subscribe:hover {
+  background-color: rgb(30, 54, 24);
+  box-shadow: 20px #3e0505;
+  transform: translate3d(5px);
 }
 .newsletter form {
   max-width: 600px;
@@ -381,6 +384,9 @@ footer button {
   line-height: 20px;
   text-align: center;
   border: none;
+}
+footer button:hover {
+  background-color: rgb(186, 8, 8);
 }
 footer .hr {
   border: 0;
