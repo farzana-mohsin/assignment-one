@@ -168,9 +168,74 @@
   line-height: 20px;
   text-transform: capitalize;
 }
+/* Coming-soon related styles */
+.coming-soon-all {
+  display: flex;
+  max-width: 1250px;
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  gap: 100px;
+}
+.coming-soon .coming-soon-area1 {
+  margin: 80px 0;
+}
+.coming-soon-area1-h5 {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.coming-soon-area1-h3 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.coming-soon-area1-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 275px;
+}
+
+.coming-soon .coming-soon-area3 {
+  margin: 60px 0;
+}
+.coming-soon .coming-soon-area3-h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.coming-soon .coming-soon-area2 img {
+  background: #fff;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 23px;
+}
+/* awesome-container related styles */
 .awesome-container {
   align-items: center;
-  margin: 40px 300px 40px 265px;
+  /* margin: 140px 240px 140px 315px; */
+  width: 80%;
+  margin: auto;
+  max-width: 1250px;
   /* width: 105%; */
 }
 .awesome-container h6 {
@@ -201,17 +266,11 @@
 .awesome-images2 {
   display: flex;
   /* border-radius: 10px; */
-  gap: 60px;
   /* width: auto; */
   height: 440px;
-  /* filter: grayscale(0%);
-  filter: gray;
-  -webkit-filter: grayscale(0%);
-  filter: none;
-  transition: 1s ease; */
 }
 .image1 {
-  width: 108%;
+  width: 92%;
 }
 .image1:hover {
   opacity: 50%;
@@ -221,10 +280,10 @@
 .newsletter .newsletter-content {
   width: 80%;
   margin: auto;
-  max-width: 1320px;
+  max-width: 1250px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
-  padding: 80px 0 80px 0;
+  padding: 80px 0;
 }
 .newsletter {
   align-items: center;
@@ -329,4 +388,7 @@ footer .hr {
 }
 footer .footer-image {
   width: 10%;
+}
+footer .area1-1 {
+  display: block;
 }
